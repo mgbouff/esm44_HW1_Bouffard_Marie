@@ -1,0 +1,22 @@
+---
+title: "Assignment 1"
+author: "Marie Bouffard"
+date: "1/17/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+
+```
+
+```{r}
+
+# Attach packages
+library(tidyverse)
+
+# Read in Sierra amphibian data
+sierra_amphibians <- read.csv("sierra_amphibians.csv")
+
+```
+
